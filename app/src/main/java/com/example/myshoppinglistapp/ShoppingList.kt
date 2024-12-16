@@ -53,7 +53,9 @@ fun ShoppingListApp(navController: NavHostController) {
         verticalArrangement = Arrangement.Top,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
+        Spacer(modifier = Modifier.height(30.dp))
         Text("Shopping List Screen")
+        Spacer(modifier = Modifier.height(28.dp))
         Button(onClick = { showDialog = true }) {
             Text("Add Item")
         }
